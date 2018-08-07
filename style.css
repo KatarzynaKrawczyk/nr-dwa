@@ -1,0 +1,232 @@
+  body {
+  font-family: "Roboto", "Arial";
+  padding:0;   
+  width: 940px;
+  margin: auto;
+}
+ div .top {
+  height:104px;
+  margin: 10px 0 20px 0;
+  border-bottom:1px solid #e5e5e5; 
+  }  
+.logo,.searchbar {
+  width:50%;
+  display:inline-block;
+  float:left; 
+  margin: 20px 0 0 0;
+     }
+.logo{
+  margin:16px 0;
+}           
+.searchbar{
+position:relative;
+margin:30 0;  
+}
+form input{ 
+  	float:right;
+    width: 212px;
+ 	height: 42px;
+    right: 0px;
+    top:30px; 
+  	border: 1px solid  #e5e8e8;
+ 	padding-left: 12px;  
+ 	padding-right:40px;
+    font-weight:500;
+    color:#666; 
+ } 
+  form input [type="text"]{
+  font-size:15px;
+}
+form button {
+  background: none;
+  border:0;
+  right:10px;
+  top:11px;
+  float:right;
+  position:absolute; 
+}
+.fas{
+  color: #af0061;
+  font-size: 18px;
+}                    
+.header{
+  padding: 0px 0 30px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h1{
+  margin:0 0 21 0;
+  padding:0;
+  font-weight:500;
+  font-size:30px;
+  color:#333;
+}
+.header .header-text {
+  font-size:16px;
+  color:#666;
+  line-height: 23px;
+}
+.header .header-text span {
+  color:#af0061;
+}
+.header .header-text a {
+  color:#af0061;
+  text-decoration:none;
+}       
+
+ul.mainmenu {
+  margin:0;
+  padding:20px 0 30px 0 ;
+  list-style:none;
+  float:left;
+  
+}
+ul.mainmenu > li {
+  border: 1px solid #e5e5e5;
+  float:left;
+  margin: 0 20px 0 0;
+}
+ul.mainmenu li a {
+  text-decoration:none;
+  color:#af0061;
+  display:inline-block;
+  padding: 14px 16px 13px 16px;
+}
+ul.mainmenu > li:first-child{
+   width:178px;
+   
+}
+ul.mainmenu li:first-child a { 
+  padding: 14px 35px 13px 16px;
+  background-image:url("https://site-example.pl/projekt1/triangle.png");
+  background-repeat:no-repeat;
+  background-position: 92% 20px;
+}
+ul.mainmenu li:hover a {
+  background: #e5e5e5;
+}
+ul.mainmenu>li:hover ul{
+  display:block;
+}
+ul.mainmenu ul{
+  display:none;
+  list-style:none;
+  padding:20px 0 0 0;
+  margin:0;
+}
+ul.mainmenu >li ul > li {
+  margin: 5px 0; 
+}
+
+section.main {
+margin:0;
+padding:0;
+}
+section.main ul {
+  list-style:none;
+  padding:0;
+  margin-bottom:40px;
+}
+section.main ul.boxes > li:nth-child(even) {
+ margin-left:20px;  
+}
+section.main ul li div {  
+ width:50%;
+ float:left;
+}
+section.main h2 {
+  color:#af0061;
+}
+section.main p {
+  color:#333;
+  font-weight:500;
+}
+section.main a {
+  color:#af0061;
+  text-decoration:none;
+  font-size:13px;
+}
+section.main .flip .image {
+float:right;  
+}
+section.main .flip .content {
+  border-right:0;
+  border-left:1px solid #e5e5e5; 
+}
+section.main ul.boxes >li {
+  width:460px;
+  float:left;
+  margin-bottom:33px; 
+}
+section.main ul li div.content {
+  margin:0;
+  padding:20px 10px;
+  list-style:none;
+  box-sizing:border-box;
+  border-top:1px solid #e5e5e5;
+  border-right:1px solid #e5e5e5;
+  border-bottom:1px solid #e5e5e5;
+  height:221px;  
+}
+section.main ul li li {
+  float:left;
+  padding-right:16px;
+  position:relative;
+}
+section.main ul li li:after {
+  content:"/"; 
+  margin-left:5px;
+  margin-bottom:-2px;
+  right:6px;
+  bottom:-1px;
+  position:absolute;
+}
+section.main ul.boxes li li:last-child:after {
+  content:""
+}
+footer div {
+	border-top: 1px solid #e5e5e5;
+	padding: 18px 0 27px 0;
+}
+footer p {
+	margin-bottom:0;
+	margin-top:0;
+	font-size:15px;
+	font-weight:500;
+	color:#666;
+}
+footer img {
+float:left;	
+margin-right:15px;
+}
+.footer-left,
+.footer-right {
+	width:50%;
+	float: left; 
+}	 
+@media screen and (max-width:939px) {
+	
+	.maincontainer {
+		width:100%;
+		padding:0 15px;			
+		box-sizing: border-box;
+	}
+	footer div:not(.clr) {
+		width:100%;
+		padding:10px 0;
+	}
+	ul.boxes {
+		width: 459px;
+		margin: auto;
+	}
+	ul.mainmenu > li {
+		margin-top: 20px;
+	}
+
+}
+@media screen and (max-width:600px) {
+	top div:not(.clr) {
+		width:100%;
+		margin:10px 0;
+	}
+	
+}	
